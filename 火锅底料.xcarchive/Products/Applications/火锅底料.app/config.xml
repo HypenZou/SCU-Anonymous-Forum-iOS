@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.app.huoguodiliao" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="CDVWebViewEngine">
+        <param name="ios-package" value="CDVWebViewEngine" />
+    </feature>
+    <feature name="LaunchScreen">
+        <param name="ios-package" value="CDVLaunchScreen" />
+    </feature>
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="AppVersion">
+        <param name="ios-package" value="AppVersion" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="Exit">
+        <param name="ios-package" value="Exit" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVWKInAppBrowser" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Toast">
+        <param name="ios-package" value="Toast" />
+    </feature>
+    <feature name="Keychain">
+        <param name="ios-package" value="CDVKeychain" />
+    </feature>
+    <name>火锅底料	</name>
+    <description>
+        四川大学匿名树洞
+    </description>
+    <author email="harryzhp03@gmail.com" href="http://www.scuhuoguodiliao.com">
+        四川大学匿名树洞--火锅底料
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <icon height="180" src="res/ios/icon-60@3x.png" width="180" />
+    <icon height="1024" src="res/ios/icon-1024.png" width="1024" />
+    <icon height="60" src="res/ios/icon-60.png" width="60" />
+    <icon height="120" src="res/ios/icon-60@2x.png" width="120" />
+    <icon height="76" src="res/ios/icon-76.png" width="76" />
+    <icon height="152" src="res/ios/icon-76@2x.png" width="152" />
+    <icon height="40" src="res/ios/icon-40.png" width="40" />
+    <icon height="80" src="res/ios/icon-40@2x.png" width="80" />
+    <icon height="120" src="res/ios/icon-40@3x.png" width="120" />
+    <icon height="57" src="res/ios/icon.png" width="57" />
+    <icon height="114" src="res/ios/icon@2x.png" width="114" />
+    <icon height="72" src="res/ios/icon-72.png" width="72" />
+    <icon height="144" src="res/ios/icon-72@2x.png" width="144" />
+    <icon height="20" src="res/ios/icon-20.png" width="20" />
+    <icon height="29" src="res/ios/icon-Small.png" width="29" />
+    <icon height="58" src="res/ios/icon-Small@2x.png" width="58" />
+    <icon height="87" src="res/ios/icon-Small@3x.png" width="87" />
+    <icon height="50" src="res/ios/icon-50.png" width="50" />
+    <icon height="100" src="res/ios/icon-50@2x.png" width="100" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaTypesRequiringUserActionForPlayback" value="none" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="default0" />
+</widget>
